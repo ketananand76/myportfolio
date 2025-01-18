@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://portfolioketananand.responsive.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>K</span>P.</span></a>
+
+       <div class='bx bx-menu'id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+     <nav class="navbar">
+            <a href="certificate.html" class="active">Certificate</a>
+            <a href="index.html">Back</a>
+            
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+     </nav>
+    </header>
+<section>
+
+</section>
+        
+<footer class="footer">
+    <div class="footer-text">
+        <p>copyright &copy; 2024 by ketan anand | All Rights Reserved.</p>
+    </div>
+    <div class="footer-icontop">
+        <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+    </div>
+</footer>
+    <script src="script.js"></script>
+<script src="https://www.drv.tw/inc/wd.js?s=rh1lnyprhiidujxzwtzsba"></script>
+<script>
+    function toggleCertificates() {
+        const hiddenCertificates = document.querySelectorAll('.certificate.hidden');
+        const seeMoreButton = document.querySelector('.see-more');
+
+        hiddenCertificates.forEach(cert => {
+            if (cert.style.display === 'block') {
+                cert.style.display = 'none';
+            } else {
+                cert.style.display = 'block';
+            }
+        });
+
+        if (seeMoreButton.innerText === 'See More') {
+            seeMoreButton.innerText = 'See Less';
+        } else {
+            seeMoreButton.innerText = 'See More';
+        }
+    }
+</script>
+</body>
+</html>
